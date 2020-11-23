@@ -10,11 +10,11 @@ my graph implemention uses 3 classes :
 
 my project allows to have a huge graph- of 10^6 vertices.
 
-# NodeInfo class :This class represents a node with all its properties as: information, key (id), tag situation, distance between all af the nodes to the specific node, and neighbors list (a list of all the connected vertices to a specific node).I used hashmap in order to store and access the information easily.
+#-- NodeInfo class :This class represents a node with all its properties as: information, key (id), tag situation, distance between all af the nodes to the specific node, and neighbors list (a list of all the connected vertices to a specific node).I used hashmap in order to store and access the information easily.
 
-# WGraph_DS class :This class represents an undirectional weighted graph. we can do operation as: check if two nodes share an edge between them,get the weight of the required edge,change the weight of a given edge, clone a graph using deep copy, add node to the graph, remove as well, connect between two nodes, get a list of node's neighbors and their relationship(weight) with a specific node, and more.
+#-- WGraph_DS class :This class represents an undirectional weighted graph. we can do operation as: check if two nodes share an edge between them,get the weight of the required edge,change the weight of a given edge, clone a graph using deep copy, add node to the graph, remove as well, connect between two nodes, get a list of node's neighbors and their relationship(weight) with a specific node, and more.
 
-# WGraph_Algo class :This class represents the operations and algorithms we can do on an undirected weighted graph-
+#-- WGraph_Algo class :This class represents the operations and algorithms we can do on an undirected weighted graph-
  as checking how many vertices it contains, how many edges, which part of the graph we want to focus on each time, 
  how many changes have we done in the graph so far, (as changing edge's weight, removing node, removing edge and more updates ),
   check if the graph is connected or not (using the BFS algorithm's idea), 
